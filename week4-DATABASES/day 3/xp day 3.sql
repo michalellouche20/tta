@@ -41,3 +41,8 @@ VALUES (1,'Titanic'),
 		DELETE FROM customer_review WHERE review_text = 'Very good film'
 SELECT * FROM customer_review
 
+ update language SET name = 'French'
+ WHERE language_id = 2
+SELECT * FROM language
+
+

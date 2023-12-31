@@ -1,0 +1,44 @@
+body {
+    background-image: url('th.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #app {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  #searchInput {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    margin: 5px 0;
+    color: #666;
+  }

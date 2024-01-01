@@ -88,3 +88,4 @@ console.log(resultString.trim());
 const names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
 
 console.log()
+

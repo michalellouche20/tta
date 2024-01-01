@@ -1,4 +1,4 @@
-
+// Ex 1
 // Part I
 setTimeout(function () {
     alert('Hello World');
@@ -27,3 +27,21 @@ let intervalId = setInterval(function () {
 document.getElementById('clear').addEventListener('click', function () {
     clearInterval(intervalId);
 });
+  
+
+//Ex 2
+
+function myMove() {
+    const container = document.getElementById('container');
+    const animate = document.getElementById('animate');
+    let position = 0;
+
+    const intervalId = setInterval(function () {
+        position++;
+        animate.style.left = position + 'px';
+
+        if (position === container.offsetWidth - animate.offsetWidth) {
+            clearInterval(intervalId);
+        }
+    }, 1);
+}

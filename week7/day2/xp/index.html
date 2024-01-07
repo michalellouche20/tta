@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Exercise 1</title>
+</head>
+<body>
+  <form action="#" method="GET">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+    <br>
+
+    <input type="submit" value="Send">
+  </form>
+ <!--ex 1
+    2.When http://example.com/?name=John&message=Hello+World.
+ex 2
+When you click the "Send" button in this form, the data will be sent in the body of the HTTP request because the form uses the POST method.
+ The sent data will not appear in the URL. 
+ To see the sent data, you can inspect the Network Tab in the browser's developer tools. 
+ Look for the request that corresponds to the form submission, and you will find the data in the "Form Data" or "Payload" section, 
+ depending on the browser.
+
+
+-->  
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
